@@ -29,3 +29,7 @@
 - Use the full path of source files, creating any missing intermediate directories when copying:
 
 `cp --parents {{source/path/to/file}} {{path/to/target_file}}`
+
+- Copy symbolic links rather than indirected through
+
+`cp -R {{path/to/source_directory}} {{path/to/target_directory}}`
